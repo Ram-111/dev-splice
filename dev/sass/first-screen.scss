@@ -1,3 +1,60 @@
-h1 {
-    color: blue;
+.container-screen{
+    padding: 0;
 }
+
+.banner .container{
+    padding-bottom: 240px;
+    background-image: url(assets/img/home.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-left: 48px;
+    padding-top: 140px;
+    
+}
+.banner .container h1{
+    max-width: 480px;
+    margin-bottom: 24px;
+    font-size: 72px;
+    line-height: 79px;
+    letter-spacing: 3.01px;
+}
+.banner .container h5{
+    max-width: 412px;
+    margin-bottom: 44px;
+
+}
+.screen{
+    background: #0033FF;
+    color: #FFFFFF;
+    display: flex;
+    width: 100%;
+    align-items: center;   
+    justify-content: center;
+}
+h6{
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+} 
+.btn-screen{
+    display: inline-block;
+    background: none;
+    border-radius: 32px;
+    color: #FFFFFF;
+    border: #0033FF;
+    padding: 8px 21px 8px 21px;
+    font-size: 16px;
+    line-height: 146%;
+    transition: 0.3s all linear;
+}
+.btn-lg{
+    background: #0033FF;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+    border-radius: 8px;
+    width: 125px;
+    height: 56px;
+}
+
